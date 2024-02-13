@@ -1,0 +1,37 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Ejecutar Script Deploy') {
+            steps {
+                script {
+                    // Define la ruta al script de shell
+                    def scriptPath = '/var/jenkins_home/scriptDeploy.sh'
+                    // Utiliza las variables proporcionadas por GHPRB
+                    def origen = env.ghprbSourceBranch
+                    def destino = env.ghprbTargetBranch
+                    // Construye el comando para ejecutar el script de shell con las variables de entorno
+                    def comando = "bash ${scriptPath} ${origen} ${destino}"
+                    // Ejecuta el comando
+                    sh(comando)
+                }
+            }
+        }
+    }
+    post {
+        success {
+            script {
+                // Mensaje de éxito
+                def successMessage = "Pipeline completado exitosamente!"
+                sh "bash /var/jenkins_home/sendTelegramMessage.sh '${successMessage}'"
+            }
+        }
+        failure {
+            script {
+                // Mensaje de fallo
+                def failureMessage = "Pipeline fallido. Revisa los logs para más detalles."
+                sh "bash /var/jenkins_home/sendTelegramMessage.sh '${failureMessage}'"
+            }
+        }
+    }
+}
