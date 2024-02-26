@@ -21,7 +21,7 @@ pipeline {
                     def scriptPath = '/var/jenkins_home/scriptDeployBanorte.sh'
                     def origen = env.ghprbSourceBranch
                     def destino = env.ghprbTargetBranch
-                    def sandbox = env.SANDBOX
+                    def sandbox = andres.yordan@test.jenkins
                     // Comando que incluye sandbox como tercer argumento
                     def comando = "bash ${scriptPath} ${origen} ${destino} ${sandbox}"
                     sh(comando)
