@@ -1,0 +1,44 @@
+pipeline {
+    agent any
+
+    environment {
+        // Variable sandbox con el valor asignado
+        SANDBOX = "andres.yordan@test.jenkins"
+    }
+
+    stages {
+        stage('Inicio de Despliegue') {
+            steps {
+                script {
+                    // Paso simplificado, sin notificaciones
+                }
+            }
+        }
+        stage('Ejecutar Script Deploy') {
+            steps {
+                script {
+                    // Define la ruta al script de shell, los argumentos y ejecuta el comando
+                    def scriptPath = '/var/jenkins_home/scriptDeployBanorte.sh'
+                    def origen = env.ghprbSourceBranch
+                    def destino = env.ghprbTargetBranch
+                    def sandbox = andres.yordan@test.jenkins
+                    // Comando que incluye sandbox como tercer argumento
+                    def comando = "bash ${scriptPath} ${origen} ${destino} ${sandbox}"
+                    sh(comando)
+                }
+            }
+        }
+    }
+    post {
+        success {
+            script {
+                // Sección simplificada, sin notificaciones
+            }
+        }
+        failure {
+            script {
+                // Sección simplificada, sin notificaciones
+            }
+        }
+    }
+}

@@ -1,0 +1,612 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "LIMITADA_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "BanorteCode": "A003",
+        "BranchCode": "9202",
+        "CodRecaDctoBE": null,
+        "CodRecaDctoDis": null,
+        "CodRecaDctoEarnix": null,
+        "CodRecaDctoVol": null,
+        "ExpenseOnFirstInstallment": "false",
+        "Group": "Pickup",
+        "MtoRecaDctoEarnix": null,
+        "PorcRecaDctoBE": null,
+        "PorcRecaDctoDis": null,
+        "PorcRecaDctoEarnix": null,
+        "PorcRecaDctoVol": null,
+        "TipoRecaDctoBE": null,
+        "TipoRecaDctoDis": null,
+        "TipoRecaDctoEarnix": null,
+        "TipoRecaDctoVol": null
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "records": [
+            {
+                "Code__c": "AttributesAuto",
+                "Name": "Atributos Ramo Auto",
+                "displaySequence": 18,
+                "id": "a0qDO0000008d0lYAA",
+                "productAttributes": {
+                    "records": [
+                        {
+                            "attributeId": "a0rDG000005GZRAYA4",
+                            "cloneable": true,
+                            "code": "TipoRecaDctoVol",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "TipoRecaDctoVol",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDG000005GZRKYA4",
+                            "cloneable": true,
+                            "code": "TipoRecaDctoEarnix",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 2,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "TipoRecaDctoEarnix",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDG000005GZRPYA4",
+                            "cloneable": true,
+                            "code": "TipoRecaDctoDis",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 3,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "TipoRecaDctoDis",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDG000005GZRUYA4",
+                            "cloneable": true,
+                            "code": "TipoRecaDctoBE",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 4,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "TipoRecaDctoBE",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDG000005GZRZYA4",
+                            "cloneable": true,
+                            "code": "PorcRecaDctoVol",
+                            "dataType": "number",
+                            "disabled": true,
+                            "displaySequence": 5,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "number",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "PorcRecaDctoVol",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDG000005GZRBYA4",
+                            "cloneable": true,
+                            "code": "PorcRecaDctoEarnix",
+                            "dataType": "number",
+                            "disabled": true,
+                            "displaySequence": 6,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "number",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "PorcRecaDctoEarnix",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDG000005GZReYAO",
+                            "cloneable": true,
+                            "code": "PorcRecaDctoDis",
+                            "dataType": "number",
+                            "disabled": true,
+                            "displaySequence": 7,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "number",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "PorcRecaDctoDis",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDG000005GZRVYA4",
+                            "cloneable": true,
+                            "code": "PorcRecaDctoBE",
+                            "dataType": "number",
+                            "disabled": true,
+                            "displaySequence": 8,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "number",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "PorcRecaDctoBE",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDG000005GZRCYA4",
+                            "cloneable": true,
+                            "code": "MtoRecaDctoEarnix",
+                            "dataType": "number",
+                            "disabled": true,
+                            "displaySequence": 9,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "number",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "MtoRecaDctoEarnix",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDG000005GZRjYAO",
+                            "cloneable": true,
+                            "code": "CodRecaDctoVol",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 10,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "CodRecaDctoVol",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDG000005GZRDYA4",
+                            "cloneable": true,
+                            "code": "CodRecaDctoEarnix",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 11,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "CodRecaDctoEarnix",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDG000005GZRoYAO",
+                            "cloneable": true,
+                            "code": "CodRecaDctoDis",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 12,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "CodRecaDctoDis",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDG000005GZRtYAO",
+                            "cloneable": true,
+                            "code": "CodRecaDctoBE",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 13,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "CodRecaDctoBE",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 13
+                }
+            },
+            {
+                "Code__c": "productAttributes",
+                "Name": "Product attributes",
+                "displaySequence": 21,
+                "id": "a0qDG000004enqIYAQ",
+                "productAttributes": {
+                    "records": [
+                        {
+                            "attributeId": "a0rDG000005GXgyYAG",
+                            "cloneable": true,
+                            "code": "ExpenseOnFirstInstallment",
+                            "dataType": "text",
+                            "description": "false",
+                            "disabled": false,
+                            "displaySequence": 0,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": true,
+                            "inputType": "text",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Expense On First Installment",
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDG000005GZjYYAW",
+                            "cloneable": true,
+                            "code": "Group",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 14,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Group",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDG000005GaQvYAK",
+                            "cloneable": true,
+                            "code": "BanorteCode",
+                            "dataType": "text",
+                            "description": "A003",
+                            "disabled": true,
+                            "displaySequence": 15,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Banorte Code",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDG000005GaQlYAK",
+                            "cloneable": true,
+                            "code": "BranchCode",
+                            "dataType": "text",
+                            "description": "9202",
+                            "disabled": true,
+                            "displaySequence": 16,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Branch Code",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 4
+                }
+            }
+        ],
+        "totalSize": 2
+    },
+    "%vlocity_namespace%__AttributeRules__c": "",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__Availability__c": "",
+    "%vlocity_namespace%__CarrierId__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__CompiledAttributeOverride__c": "LIMITADA_CompiledAttributeOverrides.json",
+    "%vlocity_namespace%__CoverageCalculationFormula__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "2023-01-01",
+    "%vlocity_namespace%__EligibilityCriteriaComments__c": "",
+    "%vlocity_namespace%__EligibilityCriteria__c": "",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__EnrollmentStatus__c": "",
+    "%vlocity_namespace%__FormularyId__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "2023-01-01T06:00:00.000Z",
+    "%vlocity_namespace%__GlobalGroupKey__c": "23fed448-fbda-fe46-330f-bc63dc71fd00",
+    "%vlocity_namespace%__GlobalKey__c": "c8f1d36e-72a7-8a5a-1777-23723d507549",
+    "%vlocity_namespace%__HasCustomAttributesProcess__c": false,
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__InstanceKeyFormula__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__IsRecommended__c": false,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "Seconds",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LastPublishDate__c": "",
+    "%vlocity_namespace%__LastSimulationInput__c": "{\"options\":{\"effectiveDate\":\"07/31/23\"},\"inputs\":{\"01tDO000000KqTwYAK\":{\"a0oDO0000004LPTYA2\":{\"count\":6,\"attributeCode\":\"Make\",\"attributeLabel\":\"Make\",\"objectId\":\"01tDO000000KqTwYAK\",\"ratingInput\":\"make\",\"attributeDataType\":\"Text\",\"categoryCode\":\"VehicleCategory\",\"categoryName\":\"VehicleCategory\",\"attributeDefaultValue\":\"FO\"},\"productName\":\"Vehicle\",\"productRecordType\":\"InsuredItemSpec\",\"productCode\":\"autoVehicle\",\"isOptional\":false,\"pciId\":\"a53DO000000JyEgYAK\",\"instanceKey\":\"\",\"a0oDO0000004LPYYA2\":{\"count\":5,\"attributeCode\":\"Year\",\"attributeLabel\":\"Year\",\"objectId\":\"01tDO000000KqTwYAK\",\"ratingInput\":\"year\",\"attributeDataType\":\"Text\",\"categoryCode\":\"VehicleCategory\",\"categoryName\":\"VehicleCategory\",\"attributeDefaultValue\":\"2009\"},\"a0oDO0000004LPdYAM\":{\"count\":4,\"attributeCode\":\"Model\",\"attributeLabel\":\"Model\",\"objectId\":\"01tDO000000KqTwYAK\",\"ratingInput\":\"model\",\"attributeDataType\":\"Text\",\"categoryCode\":\"VehicleCategory\",\"categoryName\":\"VehicleCategory\",\"attributeDefaultValue\":\"019\"},\"a0oDO0000004LPxYAM\":{\"count\":3,\"attributeCode\":\"Type\",\"attributeLabel\":\"Type\",\"objectId\":\"01tDO000000KqTwYAK\",\"ratingInput\":\"type\",\"attributeDataType\":\"Number\",\"categoryCode\":\"VehicleCategory\",\"categoryName\":\"VehicleCategory\",\"attributeDefaultValue\":\"001\"},\"a0oDO0000004LRjYAM\":{\"count\":2,\"attributeCode\":\"ModelDesc\",\"attributeLabel\":\"Model Description\",\"objectId\":\"01tDO000000KqTwYAK\",\"ratingInput\":\"modelDesc\",\"attributeDataType\":\"Text\",\"categoryCode\":\"VehicleCategory\",\"categoryName\":\"VehicleCategory\",\"attributeDefaultValue\":\"EXPEDITION LIMITED MAX 4X4 CA CE PIEL CD CQ\"}},\"01tDO000000KqU1YAK\":{\"a0oDO0000004LPsYAM\":{\"count\":2,\"attributeCode\":\"Gender\",\"attributeLabel\":\"Gender\",\"objectId\":\"01tDO000000KqU1YAK\",\"ratingInput\":\"gender\",\"attributeDataType\":\"Text\",\"categoryCode\":\"VehicleDriverCategory\",\"categoryName\":\"VehicleDriverCategory\",\"attributeDefaultValue\":\"M\"},\"productName\":\"Driver\",\"productRecordType\":\"InsuredPartySpec\",\"productCode\":\"autoDriver\",\"isOptional\":false,\"pciId\":\"a53DO000000JyEsYAK\",\"instanceKey\":\"\"}}}",
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__LineOfBusiness__c": "Property & Casualty",
+    "%vlocity_namespace%__MarketSegment__c": "",
+    "%vlocity_namespace%__ObjectTypeId__c": "",
+    "%vlocity_namespace%__OverrideDefinition__c": "LIMITADA_OverrideDefinitions.json",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PriceListEntry__c": "LIMITADA_PriceListEntries.json",
+    "%vlocity_namespace%__PricingFormula__c": "SUM(PR_ELIM_DED_REF_PREMIUN_THEFT_TOT+PR_SUBST_THEFT_TOT+PR_ASSIST_VEHI+PR_LEGAL_ASSISTANCE+PR_MEDICAL_EXPENSES_OCCUPANTS+PR_THIRD_PARTY_LIABILITY +PR_TOTAL_THEFT)",
+    "%vlocity_namespace%__PricingSource__c": "",
+    "%vlocity_namespace%__PricingStrategyType__c": "",
+    "%vlocity_namespace%__ProductChildItem__c": "LIMITADA_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__ProviderNetworkId__c": "",
+    "%vlocity_namespace%__RateBandId__c": "",
+    "%vlocity_namespace%__RatingCalcProcedureName__c": "ClbIns_EarnixAuto",
+    "%vlocity_namespace%__RatingProcedureType__c": "Integration Procedure",
+    "%vlocity_namespace%__RecordTypeName__c": "Product",
+    "%vlocity_namespace%__ReplacementProductId__c": "",
+    "%vlocity_namespace%__ReserveProcessingMode__c": "CoverageReserve",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "",
+    "%vlocity_namespace%__SellingStartDate__c": "2023-01-01T06:00:00.000Z",
+    "%vlocity_namespace%__SpecificationSubType__c": "",
+    "%vlocity_namespace%__SpecificationType__c": "",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "",
+    "%vlocity_namespace%__SubType__c": "Vehicle APF",
+    "%vlocity_namespace%__Term__c": "",
+    "%vlocity_namespace%__Tier__c": "",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TotalCoverageCalculationFormula__c": "",
+    "%vlocity_namespace%__TotalInsuredFormula__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "Insurance",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "CanUseQuantitySchedule": false,
+    "CanUseRevenueSchedule": false,
+    "Description": "",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Family": "",
+    "IsActive": true,
+    "IsArchived": false,
+    "Name": "LIMITADA",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "PricebookEntry": "LIMITADA_PricebookEntries.json",
+    "ProductCode": "B05",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": "",
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "LIMITADA",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "c8f1d36e-72a7-8a5a-1777-23723d507549",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "c8f1d36e-72a7-8a5a-1777-23723d507549",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/c8f1d36e-72a7-8a5a-1777-23723d507549",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "B05",
+            "UnitPrice": 1,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/c8f1d36e-72a7-8a5a-1777-23723d507549"
+        }
+    ],
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/c8f1d36e-72a7-8a5a-1777-23723d507549"
+}

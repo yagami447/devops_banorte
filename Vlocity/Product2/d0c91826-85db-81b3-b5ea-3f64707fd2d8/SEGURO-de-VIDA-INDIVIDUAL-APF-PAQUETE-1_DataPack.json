@@ -1,0 +1,333 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "SEGURO-de-VIDA-INDIVIDUAL-APF-PAQUETE-1_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "AmountOfFees": "001",
+        "BanorteCode": "VI47",
+        "CodePackage": "PAQUETE 1",
+        "ExpenseOnFirstInstallment": "false",
+        "MonthlyPremium": null
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "records": [
+            {
+                "Code__c": "productAttributes",
+                "Name": "Product attributes",
+                "displaySequence": 21,
+                "id": "a0qDG000004enqIYAQ",
+                "productAttributes": {
+                    "records": [
+                        {
+                            "attributeId": "a0rDG000005GXgsYAG",
+                            "cloneable": true,
+                            "code": "CodePackage",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 0,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Code Package",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDG000005GXrqYAG",
+                            "cloneable": true,
+                            "code": "AmountOfFees",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": true,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Amount of Fees",
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "id": "0",
+                                    "label": "Annual",
+                                    "readonly": false,
+                                    "value": "001"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "1",
+                                    "label": "BiMonthly",
+                                    "readonly": false,
+                                    "value": "002"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "2",
+                                    "label": "Quarterly",
+                                    "readonly": false,
+                                    "value": "003"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "3",
+                                    "label": "Semi-Annual",
+                                    "readonly": false,
+                                    "value": "006"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "4",
+                                    "label": "Monthly",
+                                    "readonly": false,
+                                    "value": "012"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "5",
+                                    "label": "Annual No Interest",
+                                    "readonly": false,
+                                    "value": "028"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "6",
+                                    "label": "3 Quarterly",
+                                    "readonly": false,
+                                    "value": "034"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDG000005GXs0YAG",
+                            "cloneable": true,
+                            "code": "MonthlyPremium",
+                            "dataType": "currency",
+                            "disabled": true,
+                            "displaySequence": 2,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "number",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Monthly Premium",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDG000005GXgyYAG",
+                            "cloneable": true,
+                            "code": "ExpenseOnFirstInstallment",
+                            "dataType": "text",
+                            "description": "false",
+                            "disabled": false,
+                            "displaySequence": 3,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": true,
+                            "inputType": "text",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Expense On First Installment",
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDG000005GaQvYAK",
+                            "cloneable": true,
+                            "code": "BanorteCode",
+                            "dataType": "text",
+                            "description": "VI47",
+                            "disabled": true,
+                            "displaySequence": 4,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Banorte Code",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 5
+                }
+            }
+        ],
+        "totalSize": 1
+    },
+    "%vlocity_namespace%__AttributeRules__c": "",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__Availability__c": "",
+    "%vlocity_namespace%__CarrierId__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__CompiledAttributeOverride__c": "SEGURO-de-VIDA-INDIVIDUAL-APF-PAQUETE-1_CompiledAttributeOverrides.json",
+    "%vlocity_namespace%__CoverageCalculationFormula__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "2023-04-01",
+    "%vlocity_namespace%__EligibilityCriteriaComments__c": "",
+    "%vlocity_namespace%__EligibilityCriteria__c": "",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__EnrollmentStatus__c": "",
+    "%vlocity_namespace%__FormularyId__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "2023-04-01T06:00:00.000Z",
+    "%vlocity_namespace%__GlobalGroupKey__c": "8ae09f26-e9f3-f6c8-8607-0a959eb4e6bd",
+    "%vlocity_namespace%__GlobalKey__c": "d0c91826-85db-81b3-b5ea-3f64707fd2d8",
+    "%vlocity_namespace%__HasCustomAttributesProcess__c": false,
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__InstanceKeyFormula__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__IsRecommended__c": false,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "Seconds",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LastPublishDate__c": "",
+    "%vlocity_namespace%__LastSimulationInput__c": "{\"options\":{\"effectiveDate\":\"07/26/23\"},\"inputs\":{\"01tDO000000KpHvYAK\":{\"a0oDG0000034hJ0YAI\":{\"count\":2,\"attributeCode\":\"CodePackage\",\"attributeLabel\":\"Code Package\",\"objectId\":\"01tDO000000KpHvYAK\",\"ratingInput\":\"NOMBRE_PAQUETE\",\"attributeDataType\":\"Text\",\"categoryCode\":\"productAttributes\",\"categoryName\":\"Product attributes\",\"attributeDefaultValue\":\"PAQUETE 1\"},\"productName\":\"SEGURO de VIDA INDIVIDUAL APF PAQUETE 1\",\"productRecordType\":\"Product\",\"productCode\":\"SEGURO_VI_APF1_ROOT\",\"isRoot\":true,\"a0oDG0000034hJ5YAI\":{\"count\":1,\"attributeCode\":\"AmountOfFees\",\"attributeLabel\":\"Amount of Fees\",\"objectId\":\"01tDO000000KpHvYAK\",\"ratingInput\":\"CANTIDAD_CUOTAS\",\"attributeDataType\":\"Number\",\"categoryCode\":\"productAttributes\",\"categoryName\":\"Product attributes\",\"attributeDefaultValue\":\"001\"}}}}",
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__LineOfBusiness__c": "Individual Life",
+    "%vlocity_namespace%__MarketSegment__c": "",
+    "%vlocity_namespace%__ObjectTypeId__c": "",
+    "%vlocity_namespace%__OverrideDefinition__c": "SEGURO-de-VIDA-INDIVIDUAL-APF-PAQUETE-1_OverrideDefinitions.json",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PricingFormula__c": "SUM( VIDA_IND_PR_FALLECIMIENTO + VIDA_IND_PR_INVALIDEZ_TYP + VIDA_IND_PR_MUERTE_ACCIDENTAL + VIDA_IND_PR_INDEM_HOSPITALARIA + VIDA_IND_PR_INDEM_DIARIA + VIDA_IND_PR_ENFERMEDADES_GRAVES )",
+    "%vlocity_namespace%__PricingSource__c": "",
+    "%vlocity_namespace%__PricingStrategyType__c": "",
+    "%vlocity_namespace%__ProductChildItem__c": "SEGURO-de-VIDA-INDIVIDUAL-APF-PAQUETE-1_ProductChildItems.json",
+    "%vlocity_namespace%__ProductRequirement__c": "SEGURO-de-VIDA-INDIVIDUAL-APF-PAQUETE-1_ProductRequirements.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__ProviderNetworkId__c": "",
+    "%vlocity_namespace%__RateBandId__c": "",
+    "%vlocity_namespace%__RatingCalcProcedureName__c": "VidaIndividual",
+    "%vlocity_namespace%__RatingProcedureType__c": "Expression Set",
+    "%vlocity_namespace%__RecordTypeName__c": "Product",
+    "%vlocity_namespace%__ReplacementProductId__c": "",
+    "%vlocity_namespace%__ReserveProcessingMode__c": "CoverageReserve",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "",
+    "%vlocity_namespace%__SellingStartDate__c": "2023-04-01T06:00:00.000Z",
+    "%vlocity_namespace%__SpecificationSubType__c": "",
+    "%vlocity_namespace%__SpecificationType__c": "",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "",
+    "%vlocity_namespace%__SubType__c": "Life APF",
+    "%vlocity_namespace%__Term__c": "",
+    "%vlocity_namespace%__Tier__c": "",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TotalCoverageCalculationFormula__c": "",
+    "%vlocity_namespace%__TotalInsuredFormula__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "Insurance",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "CanUseQuantitySchedule": false,
+    "CanUseRevenueSchedule": false,
+    "Description": "",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Family": "",
+    "IsActive": true,
+    "IsArchived": false,
+    "Name": "SEGURO de VIDA INDIVIDUAL APF PAQUETE 1",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "PricebookEntry": "SEGURO-de-VIDA-INDIVIDUAL-APF-PAQUETE-1_PricebookEntries.json",
+    "ProductCode": "SEGURO_VI_APF1_ROOT",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": "",
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "SEGURO de VIDA INDIVIDUAL APF PAQUETE 1",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "d0c91826-85db-81b3-b5ea-3f64707fd2d8",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "d0c91826-85db-81b3-b5ea-3f64707fd2d8",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/d0c91826-85db-81b3-b5ea-3f64707fd2d8",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "SEGURO_VI_APF1_ROOT",
+            "UnitPrice": 1,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/d0c91826-85db-81b3-b5ea-3f64707fd2d8"
+        }
+    ],
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/d0c91826-85db-81b3-b5ea-3f64707fd2d8"
+}
