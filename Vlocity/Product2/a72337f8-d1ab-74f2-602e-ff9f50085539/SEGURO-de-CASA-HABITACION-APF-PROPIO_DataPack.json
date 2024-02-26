@@ -1,0 +1,557 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "SEGURO-de-CASA-HABITACION-APF-PROPIO_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "ApplyContent": false,
+        "ApplyDMED": false,
+        "ApplyDMRB": false,
+        "ApplyRCGE": false,
+        "ApplyRHMT": false,
+        "ApplyTEEV": false,
+        "BanorteCode": "CAHA",
+        "BuildingValue": null,
+        "CodProd": "SEGURO_CASA_HABITACION_APF_PROPIO_ROOT",
+        "ContentPercentage": null,
+        "ContentValue": null,
+        "ExpenseOnFirstInstallment": "false",
+        "IssueExpense": null,
+        "MonthlyPremium": null,
+        "postalCode": null
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "records": [
+            {
+                "Code__c": "productAttributes",
+                "Name": "Product attributes",
+                "displaySequence": 21,
+                "id": "a0qDG000004enqIYAQ",
+                "productAttributes": {
+                    "records": [
+                        {
+                            "attributeId": "a0rDG000005GZveYAG",
+                            "cloneable": true,
+                            "code": "ContentValue",
+                            "dataType": "currency",
+                            "disabled": true,
+                            "displaySequence": 0,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "number",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Content Value",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDG000005GZvaYAG",
+                            "cloneable": true,
+                            "code": "ContentPercentage",
+                            "dataType": "percentage",
+                            "disabled": true,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "number",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Content Percentage",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDG000005GZvZYAW",
+                            "cloneable": true,
+                            "code": "BuildingValue",
+                            "dataType": "currency",
+                            "disabled": true,
+                            "displaySequence": 2,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "number",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Building Value",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDG000005GXgyYAG",
+                            "cloneable": true,
+                            "code": "ExpenseOnFirstInstallment",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 3,
+                            "filterable": true,
+                            "hasRules": true,
+                            "hidden": true,
+                            "inputType": "text",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Expense On First Installment",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDG000005GZvjYAG",
+                            "cloneable": true,
+                            "code": "ApplyContent",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 4,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": true,
+                            "inputType": "checkbox",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Apply Content",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDG000005GZwqYAG",
+                            "cloneable": true,
+                            "code": "ApplyRHMT",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 6,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": true,
+                            "inputType": "checkbox",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Apply RHMT",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDG000005GZwvYAG",
+                            "cloneable": true,
+                            "code": "ApplyTEEV",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 7,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": true,
+                            "inputType": "checkbox",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Apply TEEV",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDG000005GZx0YAG",
+                            "cloneable": true,
+                            "code": "ApplyRCGE",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 8,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": true,
+                            "inputType": "checkbox",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Apply RCGE",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDG000005GZx5YAG",
+                            "cloneable": true,
+                            "code": "ApplyDMRB",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 9,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": true,
+                            "inputType": "checkbox",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Apply DMRB",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDG000005GZx6YAG",
+                            "cloneable": true,
+                            "code": "ApplyDMED",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 10,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": true,
+                            "inputType": "checkbox",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Apply DMED",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDG000005GXs0YAG",
+                            "cloneable": true,
+                            "code": "MonthlyPremium",
+                            "dataType": "currency",
+                            "disabled": true,
+                            "displaySequence": 11,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": true,
+                            "inputType": "number",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Monthly Premium",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDG000005GZxFYAW",
+                            "cloneable": true,
+                            "code": "IssueExpense",
+                            "dataType": "currency",
+                            "disabled": true,
+                            "displaySequence": 12,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": true,
+                            "inputType": "number",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Issue Expense",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDG000005GZxAYAW",
+                            "cloneable": true,
+                            "code": "CodProd",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 13,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": true,
+                            "inputType": "text",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Cod Prod",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDG000005GaQvYAK",
+                            "cloneable": true,
+                            "code": "BanorteCode",
+                            "dataType": "text",
+                            "description": "CAHA",
+                            "disabled": true,
+                            "displaySequence": 14,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Banorte Code",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 14
+                }
+            },
+            {
+                "Code__c": "AddressCategory",
+                "Name": "Address Category",
+                "displaySequence": 25,
+                "id": "a0qDG000004eo08YAA",
+                "productAttributes": {
+                    "records": [
+                        {
+                            "attributeId": "a0rDG000005GYY6YAO",
+                            "cloneable": true,
+                            "code": "postalCode",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 5,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": true,
+                            "inputType": "text",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Postal Code",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 1
+                }
+            }
+        ],
+        "totalSize": 2
+    },
+    "%vlocity_namespace%__AttributeRules__c": "",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__Availability__c": "",
+    "%vlocity_namespace%__CarrierId__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__CoverageCalculationFormula__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "2023-01-01",
+    "%vlocity_namespace%__EligibilityCriteriaComments__c": "",
+    "%vlocity_namespace%__EligibilityCriteria__c": "",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__EnrollmentStatus__c": "",
+    "%vlocity_namespace%__FormularyId__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "2023-08-01T05:00:00.000Z",
+    "%vlocity_namespace%__GlobalGroupKey__c": "1ab8422b-31d8-1ec2-a1a3-345913a0e7c0",
+    "%vlocity_namespace%__GlobalKey__c": "a72337f8-d1ab-74f2-602e-ff9f50085539",
+    "%vlocity_namespace%__HasCustomAttributesProcess__c": false,
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__InstanceKeyFormula__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__IsRecommended__c": false,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "Seconds",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LastPublishDate__c": "",
+    "%vlocity_namespace%__LastSimulationInput__c": "{\"options\":{\"effectiveDate\":\"18/10/23\"},\"inputs\":{\"01tDO000000L0BqYAK\":{\"a0oDG000003H7MlYAK\":{\"count\":10,\"attributeCode\":\"postalCode\",\"attributeLabel\":\"Postal Code\",\"objectId\":\"01tDO000000L0BqYAK\",\"ratingInput\":\"CODIGO_POSTAL\",\"attributeDataType\":\"Text\",\"categoryCode\":\"AddressCategory\",\"categoryName\":\"Address Category\",\"attributeDefaultValue\":\"1000\"},\"productName\":\"SEGURO de CASA HABITACION APF - PROPIO\",\"productRecordType\":\"Product\",\"productCode\":\"SEGURO_CASA_HABITACION_APF_PROPIO_ROOT\",\"isRoot\":true,\"a0oDG000003H7MXYA0\":{\"count\":9,\"attributeCode\":\"ApplyContent\",\"attributeLabel\":\"Apply Content\",\"objectId\":\"01tDO000000L0BqYAK\",\"ratingInput\":\"APLICA_CONTENIDOS\",\"attributeDataType\":\"Boolean\",\"categoryCode\":\"productAttributes\",\"categoryName\":\"Product attributes\",\"attributeDefaultValue\":false},\"a0oDG000003H7MYYA0\":{\"count\":8,\"attributeCode\":\"ApplyDMED\",\"attributeLabel\":\"Apply DMED\",\"objectId\":\"01tDO000000L0BqYAK\",\"ratingInput\":\"APLICA_DMED\",\"attributeDataType\":\"Boolean\",\"categoryCode\":\"productAttributes\",\"categoryName\":\"Product attributes\",\"attributeDefaultValue\":false},\"a0oDG000003H7MZYA0\":{\"count\":7,\"attributeCode\":\"ApplyDMRB\",\"attributeLabel\":\"Apply DMRB\",\"objectId\":\"01tDO000000L0BqYAK\",\"ratingInput\":\"APLICA_DMRB\",\"attributeDataType\":\"Boolean\",\"categoryCode\":\"productAttributes\",\"categoryName\":\"Product attributes\",\"attributeDefaultValue\":false},\"a0oDG000003H7MaYAK\":{\"count\":6,\"attributeCode\":\"ApplyRCGE\",\"attributeLabel\":\"Apply RCGE\",\"objectId\":\"01tDO000000L0BqYAK\",\"ratingInput\":\"APLICA_RCGE\",\"attributeDataType\":\"Boolean\",\"categoryCode\":\"productAttributes\",\"categoryName\":\"Product attributes\",\"attributeDefaultValue\":false},\"a0oDG000003H7MbYAK\":{\"count\":5,\"attributeCode\":\"ApplyRHMT\",\"attributeLabel\":\"Apply RHMT\",\"objectId\":\"01tDO000000L0BqYAK\",\"ratingInput\":\"APLICA_RHMT\",\"attributeDataType\":\"Boolean\",\"categoryCode\":\"productAttributes\",\"categoryName\":\"Product attributes\",\"attributeDefaultValue\":false},\"a0oDG000003H7McYAK\":{\"count\":4,\"attributeCode\":\"ApplyTEEV\",\"attributeLabel\":\"Apply TEEV\",\"objectId\":\"01tDO000000L0BqYAK\",\"ratingInput\":\"APLICA_TEEV\",\"attributeDataType\":\"Boolean\",\"categoryCode\":\"productAttributes\",\"categoryName\":\"Product attributes\",\"attributeDefaultValue\":false},\"a0oDG000003H7MgYAK\":{\"count\":3,\"attributeCode\":\"ContentPercentage\",\"attributeLabel\":\"Content Percentage\",\"objectId\":\"01tDO000000L0BqYAK\",\"ratingInput\":\"PORCENTAJE_CONTENIDOS\",\"attributeDataType\":\"Percent\",\"categoryCode\":\"productAttributes\",\"categoryName\":\"Product attributes\",\"attributeDefaultValue\":\"40\"},\"a0oDG000003H7MfYAK\":{\"count\":2,\"attributeCode\":\"CodProd\",\"attributeLabel\":\"Cod Prod\",\"objectId\":\"01tDO000000L0BqYAK\",\"ratingInput\":\"COD_PROD\",\"attributeDataType\":\"Text\",\"categoryCode\":\"productAttributes\",\"categoryName\":\"Product attributes\",\"attributeDefaultValue\":\"SEGURO_CASA_HABITACION_APF_PROPIO_ROOT\"},\"a0oDG000003H7MeYAK\":{\"count\":1,\"attributeCode\":\"BuildingValue\",\"attributeLabel\":\"Building Value\",\"objectId\":\"01tDO000000L0BqYAK\",\"ratingInput\":\"VALOR_INMUEBLE\",\"attributeDataType\":\"Currency\",\"categoryCode\":\"productAttributes\",\"categoryName\":\"Product attributes\",\"attributeDefaultValue\":\"4000000\"}}}}",
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__LineOfBusiness__c": "Property & Casualty",
+    "%vlocity_namespace%__MarketSegment__c": "",
+    "%vlocity_namespace%__ObjectTypeId__c": "",
+    "%vlocity_namespace%__OverrideDefinition__c": "SEGURO-de-CASA-HABITACION-APF-PROPIO_OverrideDefinitions.json",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PriceListEntry__c": "SEGURO-de-CASA-HABITACION-APF-PROPIO_PriceListEntries.json",
+    "%vlocity_namespace%__PricingFormula__c": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PRIMA + INCE_Calculo_Prima_Contenidos__INCE_CONTE_PRIMA + RHMT_Calculo_Prima_Edificio__RHMT_EDIFI_PRIMA + RHMT_Calculo_Prima_Contenidos__RHMT_CONTE_PRIMA + TEEV_Calculo_Prima_Edificio__TEEV_EDIFI_PRIMA + TEEV_Calculo_Prima_Contenidos__TEEV_CONTE_PRIMA + RCGE_Calculo__RCGE_PRIMA + DMRB_Calculo__DMRB_PRIMA + DMED_Calculo__DMED_PRIMA + GASTOS_EXPEDICION",
+    "%vlocity_namespace%__PricingSource__c": "",
+    "%vlocity_namespace%__PricingStrategyType__c": "",
+    "%vlocity_namespace%__ProductChildItem__c": "SEGURO-de-CASA-HABITACION-APF-PROPIO_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__ProviderNetworkId__c": "",
+    "%vlocity_namespace%__RateBandId__c": "",
+    "%vlocity_namespace%__RatingCalcProcedureName__c": "DanosPropio",
+    "%vlocity_namespace%__RatingProcedureType__c": "Expression Set",
+    "%vlocity_namespace%__RecordTypeName__c": "Product",
+    "%vlocity_namespace%__ReplacementProductId__c": "",
+    "%vlocity_namespace%__ReserveProcessingMode__c": "CoverageReserve",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "",
+    "%vlocity_namespace%__SellingStartDate__c": "2023-01-01T06:00:00.000Z",
+    "%vlocity_namespace%__SpecificationSubType__c": "",
+    "%vlocity_namespace%__SpecificationType__c": "",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "",
+    "%vlocity_namespace%__SubType__c": "Damage Home",
+    "%vlocity_namespace%__Term__c": "",
+    "%vlocity_namespace%__Tier__c": "",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TotalCoverageCalculationFormula__c": "",
+    "%vlocity_namespace%__TotalInsuredFormula__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "Insurance",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "CanUseQuantitySchedule": false,
+    "CanUseRevenueSchedule": false,
+    "Description": "",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Family": "",
+    "IsActive": true,
+    "IsArchived": false,
+    "Name": "SEGURO de CASA HABITACION APF - PROPIO",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "PricebookEntry": "SEGURO-de-CASA-HABITACION-APF-PROPIO_PricebookEntries.json",
+    "ProductCode": "SEGURO_CASA_HABITACION_APF_PROPIO_ROOT",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": "",
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "SEGURO de CASA HABITACION APF - PROPIO",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "a72337f8-d1ab-74f2-602e-ff9f50085539",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "a72337f8-d1ab-74f2-602e-ff9f50085539",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/a72337f8-d1ab-74f2-602e-ff9f50085539",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "SEGURO_CASA_HABITACION_APF_PROPIO_ROOT",
+            "UnitPrice": 1,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/a72337f8-d1ab-74f2-602e-ff9f50085539"
+        }
+    ],
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/a72337f8-d1ab-74f2-602e-ff9f50085539"
+}

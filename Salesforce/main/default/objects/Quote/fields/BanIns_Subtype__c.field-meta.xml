@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BanIns_Subtype__c</fullName>
+    <externalId>false</externalId>
+    <label>Subtype</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>vlocity_ins__Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Life Formula</fullName>
+                <default>false</default>
+                <label>Life Formula</label>
+            </value>
+            <value>
+                <fullName>Prot Int Plus</fullName>
+                <default>false</default>
+                <label>Prot Int Plus</label>
+            </value>
+            <value>
+                <fullName>Damage Formula</fullName>
+                <default>false</default>
+                <label>Damage Formula</label>
+            </value>
+            <value>
+                <fullName>Personal Accident</fullName>
+                <default>false</default>
+                <label>Personal Accident</label>
+            </value>
+            <value>
+                <fullName>Life APF</fullName>
+                <default>false</default>
+                <label>Life APF</label>
+            </value>
+            <value>
+                <fullName>Vehicle APF</fullName>
+                <default>false</default>
+                <label>Vehicle APF</label>
+            </value>
+            <value>
+                <fullName>Damage Home</fullName>
+                <default>false</default>
+                <label>Damage Home</label>
+            </value>
+            <value>
+                <fullName>Hospital Indemnity</fullName>
+                <default>false</default>
+                <label>Hospital Indemnity</label>
+            </value>
+            <value>
+                <fullName>Credit Card Plus</fullName>
+                <default>false</default>
+                <label>Credit Card Plus</label>
+            </value>
+            <value>
+                <fullName>Life &amp; Repatriation</fullName>
+                <default>false</default>
+                <label>Life &amp; Repatriation</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Insurance</controllingFieldValue>
+            <valueName>Life Formula</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Insurance</controllingFieldValue>
+            <valueName>Prot Int Plus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Insurance</controllingFieldValue>
+            <valueName>Damage Formula</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Insurance</controllingFieldValue>
+            <valueName>Personal Accident</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Insurance</controllingFieldValue>
+            <valueName>Life APF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Insurance</controllingFieldValue>
+            <valueName>Vehicle APF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Insurance</controllingFieldValue>
+            <valueName>Damage Home</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Insurance</controllingFieldValue>
+            <valueName>Hospital Indemnity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Insurance</controllingFieldValue>
+            <valueName>Credit Card Plus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Insurance</controllingFieldValue>
+            <valueName>Life &amp; Repatriation</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
