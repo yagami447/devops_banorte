@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // Asegúrate de reemplazar este valor con tu URL de webhook de Microsoft Teams real
-        BANORTE_TOKEN = "banorte_token"
+        // BANORTE_TOKEN = "banorte_token"
         // Agregando la nueva variable sandbox
         SANDBOX = "andres.yordan@test.jenkins"
     }
@@ -13,8 +13,8 @@ pipeline {
             steps {
                 script {
                     // Notificar inicio de despliegue en Microsoft Teams
-                    def startMessage = "{\"text\":\"Inicio del despliegue del delta de componentes entre las ramas: Origen: ${env.ghprbSourceBranch} y Destino: ${env.ghprbTargetBranch}.\"}"
-                    sh "curl -H 'Content-Type: application/json' -d '${startMessage}' ${env.BANORTE_TOKEN}"
+                   // def startMessage = "{\"text\":\"Inicio del despliegue del delta de componentes entre las ramas: Origen: ${env.ghprbSourceBranch} y Destino: ${env.ghprbTargetBranch}.\"}"
+                    //sh "curl -H 'Content-Type: application/json' -d '${startMessage}' ${env.BANORTE_TOKEN}"
                 }
             }
         }
@@ -37,23 +37,23 @@ pipeline {
         success {
             script {
                 // Notificar éxito en Telegram
-                def successMessageTelegram = "Despliegue completado exitosamente!"
-                sh "bash /var/jenkins_home/sendTelegramMessage.sh '${successMessageTelegram}'"
+                // def successMessageTelegram = "Despliegue completado exitosamente!"
+                // sh "bash /var/jenkins_home/sendTelegramMessage.sh '${successMessageTelegram}'"
                 
                 // Notificar éxito en Microsoft Teams
-                def successMessageTeams = "{\"text\":\"Despliegue completado exitosamente!\"}"
-                sh "curl -H 'Content-Type: application/json' -d '${successMessageTeams}' ${env.BANORTE_TOKEN}"
+                // def successMessageTeams = "{\"text\":\"Despliegue completado exitosamente!\"}"
+                // sh "curl -H 'Content-Type: application/json' -d '${successMessageTeams}' ${env.BANORTE_TOKEN}"
             }
         }
         failure {
             script {
                 // Notificar fallo en Telegram
-                def failureMessageTelegram = "Despliegue fallido. Revisa los logs para más detalles."
-                sh "bash /var/jenkins_home/sendTelegramMessage.sh '${failureMessageTelegram}'"
+                // def failureMessageTelegram = "Despliegue fallido. Revisa los logs para más detalles."
+                // sh "bash /var/jenkins_home/sendTelegramMessage.sh '${failureMessageTelegram}'"
                 
                 // Notificar fallo en Microsoft Teams
-                def failureMessageTeams = "{\"text\":\"Despliegue fallido. Revisa los logs para más detalles.\"}"
-                sh "curl -H 'Content-Type: application/json' -d '${failureMessageTeams}' ${env.BANORTE_TOKEN}"
+                // def failureMessageTeams = "{\"text\":\"Despliegue fallido. Revisa los logs para más detalles.\"}"
+                //sh "curl -H 'Content-Type: application/json' -d '${failureMessageTeams}' ${env.BANORTE_TOKEN}"
             }
         }
     }
