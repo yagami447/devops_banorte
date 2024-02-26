@@ -22,7 +22,7 @@ pipeline {
             steps {
                 script {
                     // Define la ruta al script de shell, los argumentos y ejecuta el comando
-                    def scriptPath = '/var/jenkins_home/scriptDeploy.sh'
+                    def scriptPath = '/var/jenkins_home/scriptDeployBanorte.sh'
                     def origen = env.ghprbSourceBranch
                     def destino = env.ghprbTargetBranch
                     def sandbox = env.SANDBOX
